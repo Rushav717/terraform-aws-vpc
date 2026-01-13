@@ -15,7 +15,7 @@ variable "environment" {
 }
 
 variable "common_tags" {
-  type    = map(any)
+  type    = map
   default = {}
 }
 
